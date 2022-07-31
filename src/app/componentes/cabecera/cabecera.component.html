@@ -1,0 +1,14 @@
+
+ <!------------------------ La Cabecera comienza aquí ----------------------->
+ <header>
+    <div class="logo" alt="argentina programa">
+        <img src="../../../assets/img/argentina-programa-pequeño.png">
+                </div>
+                <div>
+                    <app-social></app-social>
+                </div>
+                 <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                 <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+           </header>
+         
+<!------------------------ La Cabecera finaliza aquí ----------------------->
